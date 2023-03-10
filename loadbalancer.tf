@@ -37,5 +37,4 @@ resource "aws_lb_target_group" "ecs" {
     unhealthy_threshold = 2
     healthy_threshold   = 2
   }
-
- 
+}
